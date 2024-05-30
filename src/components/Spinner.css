@@ -1,0 +1,17 @@
+.spinner {
+    --R: 28px;
+    --g1: #474bff 96%, #0000;
+    --g2: #dbdcef 96%, #0000;
+    width: calc(2*var(--R));
+    height: calc(2*var(--R));
+    border-radius: 50%;
+    display: grid;
+    animation: spinner-maxc6n 2s infinite linear;
+ }
+
+ @keyframes spinner-maxc6n {
+    100% {
+       transform: rotate(-1turn);
+    }
+ }
+ 
